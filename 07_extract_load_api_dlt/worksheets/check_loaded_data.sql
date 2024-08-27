@@ -1,0 +1,13 @@
+USE ROLE job_ads_dlt_role;
+
+USE WAREHOUSE DEV_WH;
+
+USE DATABASE job_ads;
+
+SHOW SCHEMAS;
+
+USE SCHEMA STAGING;
+
+SHOW TABLES;
+
+SELECT * FROM data_field_job_ads;

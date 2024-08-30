@@ -1,0 +1,30 @@
+[0m09:50:25.252303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014737C1B990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014737C13D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014737C13C50>]}
+
+
+============================== 09:50:25.275974 | 5909bb10-f3a7-4fa5-aca3-91a8c852e02e ==============================
+[0m09:50:25.275974 [info ] [MainThread]: Running with dbt=1.8.6
+[0m09:50:25.276522 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Timot\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init dbt_code', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:50:25.359358 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Timot/.dbt')}
+[0m09:50:25.360358 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m09:50:25.364862 [debug] [MainThread]: Starter project path: C:\Users\Timot\Documents\github\data_warehouse_DE23_timothy_hydman\.venv\Lib\site-packages\dbt\include\starter_project
+[0m09:50:25.388491 [info ] [MainThread]: 
+Your new dbt project "dbt_code" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:50:25.390839 [info ] [MainThread]: Setting up your profile.
+[0m09:55:52.895638 [info ] [MainThread]: Profile dbt_code written to C:\Users\Timot\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:55:52.899171 [debug] [MainThread]: Command `dbt init` succeeded at 09:55:52.899171 after 327.73 seconds
+[0m09:55:52.901706 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014737C1B990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001474731D550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147314D7D50>]}
+[0m09:55:52.903697 [debug] [MainThread]: Flushing usage events

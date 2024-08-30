@@ -1,0 +1,9 @@
+USE ROLE SYSADMIN;
+
+CREATE DATABASE IF NOT EXISTS parking_db;
+
+CREATE WAREHOUSE IF NOT EXISTS parking_wh;
+
+CREATE SCHEMA IF NOT EXISTS parking_db.staging;
+
+CREATE SCHEMA IF NOT EXISTS parking_db.staging_mc;

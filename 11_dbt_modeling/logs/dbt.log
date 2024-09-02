@@ -1,0 +1,14 @@
+[0m13:46:16.055564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022467AF6A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022467AF6750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022467AF7D50>]}
+
+
+============================== 13:46:16.058567 | 44aa0932-a5e7-4656-9d8a-27f84e774c53 ==============================
+[0m13:46:16.058567 [info ] [MainThread]: Running with dbt=1.8.6
+[0m13:46:16.060564 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Timot\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:46:16.062578 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Timot\Documents\github\data_warehouse_DE23_timothy_hydman\11_dbt_modeling\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:46:16.064586 [debug] [MainThread]: Command `dbt deps` failed at 13:46:16.064586 after 0.10 seconds
+[0m13:46:16.065586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022467A8AFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022467AF6950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022467AF4990>]}
+[0m13:46:16.066589 [debug] [MainThread]: Flushing usage events
